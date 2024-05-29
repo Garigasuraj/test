@@ -1,0 +1,60 @@
+form{
+  width: 500px;
+  margin: 10px auto;
+}
+
+input[type="radio"]:checked + label{
+  color: green;
+  font: bold;
+}
+.new_images{
+  width: 400px;
+  background-color: rgb(212, 148, 63);
+}
+/* 
+div:nth-of-type(1n){
+  background-color: green;
+} */
+
+#user + label::selection{
+  background-color: yellow;
+}
+
+
+.useer{
+  background-color: green;
+}
+#user{
+  background-color: pink;
+}
+.practice{
+  /* display: inline-block; */
+  width: 180px; height: 180px;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  background-color: rgb(151, 125, 174);
+  color: white; text-align: center;padding-top: 50px;
+  animation: rotate 6s ease-out 0s infinite alternate;
+  box-shadow: 10px 10px 10px plum;
+
+}
+@keyframes rotate{
+  0%{margin-left: 0px;}
+  15%{
+    margin-left: 1000px;
+    background-color: rgb(3, 8, 3);
+  }
+  45%{
+    margin-top: 400px;
+    background-color: rgb(144, 90, 194);
+  }
+  85%{
+    margin-right: 1000px;
+    background-color: rgb(3, 8, 3)
+  }
+  100%{
+    margin-bottom: 400px;
+    background-color: rgb(144, 90, 194);
+  }
+
+}
